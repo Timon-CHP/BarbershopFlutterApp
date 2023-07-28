@@ -107,7 +107,7 @@ class _ShowTaskViewState extends State<ShowTaskView> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    "${task.status! == 1 ? "Đã xong" : "Đợi"}",
+                    task.status! == 1 ? "Đã xong" : "Đợi",
                     style: TextStyle(
                       fontSize: 20,
                       fontFamily: fontBold,

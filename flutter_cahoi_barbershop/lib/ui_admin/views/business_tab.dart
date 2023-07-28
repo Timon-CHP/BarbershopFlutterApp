@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cahoi_barbershop/core/services/user_service.dart';
 import 'package:flutter_cahoi_barbershop/service_locator.dart';

@@ -44,7 +44,7 @@ class _ChangeAvatarSheetState extends State<ChangeAvatarSheet> {
                   width: size.width,
                   color: Colors.black.withOpacity(0.8),
                 ),
-                Container(
+                SizedBox(
                   height: size.width,
                   width: size.width,
                   child: ClipRRect(

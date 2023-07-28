@@ -438,9 +438,9 @@ class _ReportTaskViewState extends State<ReportTaskView> {
                       },
                       child: Container(
                         color: Colors.green.shade400,
-                        child: Row(
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(Icons.send),
                             SizedBox(
                               width: 10,

@@ -68,7 +68,7 @@ class _StoryPageViewState extends State<StoryPageView>
                   appLang(context)!.title_rules,
                 ),
                 onPressed: () {
-                  ShowCaseWidget.of(context)!.startShowCase([_one]);
+                  ShowCaseWidget.of(context).startShowCase([_one]);
                 },
               ),
               appBar: AppBar(

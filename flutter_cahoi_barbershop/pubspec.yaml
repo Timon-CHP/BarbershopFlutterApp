@@ -30,16 +30,16 @@ dependencies:
   # system
   flutter:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.18.0
   provider: ^6.0.2
   path_provider: ^2.0.10
-  google_fonts: ^2.1.1
+  google_fonts: ^4.0.3
   flutter_svg: ^1.0.0
   fluttertoast: ^8.0.8
   get_it: ^7.2.0
   http: ^0.13.4
   url_launcher: ^6.0.17
-  permission_handler: ^9.2.0
+  permission_handler: ^10.3.3
   date_format: ^2.0.5
   awesome_dialog: ^2.1.2
   json_serializable: ^6.1.3
@@ -51,7 +51,7 @@ dependencies:
     sdk: flutter
 
   # storage
-  flutter_secure_storage: ^5.0.2
+  flutter_secure_storage: ^8.0.0
   shared_preferences: ^2.0.11
   sqflite: ^2.0.1
 
@@ -61,18 +61,19 @@ dependencies:
   flutter_local_notifications: ^9.1.5
   date_picker_timeline: ^1.2.3
   flutter_rating_bar: ^4.0.0
-  extended_image: 6.0.3
+  extended_image: ^8.0.2
   pin_code_fields: ^7.3.0
   phone_numbers_parser: ^4.2.0
   video_player: ^2.2.11
   webview_flutter: ^3.0.0
 
   #Map Location
-  geolocator: ^8.0.3
+  geolocator: ^9.0.0
+  google_maps: ^6.3.0
 
   #firebase
-  firebase_auth: ^3.3.5
-  firebase_core: ^1.11.0
+  firebase_auth: ^4.7.2
+  firebase_core: ^2.15.0
 
   # Social
   flutter_facebook_auth: ^4.3.3
@@ -99,6 +100,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+dependency_overrides:
+  intl: any
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

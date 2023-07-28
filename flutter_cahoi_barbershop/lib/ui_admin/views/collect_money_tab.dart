@@ -185,7 +185,7 @@ class RevenueTile extends StatelessWidget {
         return ListTile(
           onTap: onPaid,
           onLongPress: () {
-            ShowCaseWidget.of(context)!.startShowCase([_globalKey]);
+            ShowCaseWidget.of(context).startShowCase([_globalKey]);
           },
           leading: ClipRRect(
             child: Image.network("$localHost${revenue.facility!.image}"),

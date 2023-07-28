@@ -55,7 +55,7 @@ class _HistoryViewState extends State<HistoryView> {
                     '${appLang(context)!.desc_spent}: ${model.sumSpent ?? 0}K',
                 child: FloatingActionButton.extended(
                   onPressed: () {
-                    ShowCaseWidget.of(context)!.startShowCase([_globalKey]);
+                    ShowCaseWidget.of(context).startShowCase([_globalKey]);
                   },
                   label: Text(
                     "${appLang(context)!.spent}: ${model.sumSpent ?? 0}K",
