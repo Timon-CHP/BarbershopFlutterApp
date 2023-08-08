@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
 
 class ElevatedButtonIcon extends StatefulWidget {
   final double? width;

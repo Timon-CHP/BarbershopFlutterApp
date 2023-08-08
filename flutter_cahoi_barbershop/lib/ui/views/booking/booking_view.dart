@@ -1,23 +1,23 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/facility.dart';
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
-import 'package:flutter_cahoi_barbershop/core/models/stylist.dart';
-import 'package:flutter_cahoi_barbershop/core/services/auth_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/booking_model.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/booking/select_facility_view.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/booking/select_product_view.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/booking/widgets/select_stylist.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/booking/widgets/time_slots.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/dialogs/loading_dialog.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/elevated_button_icon.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/my_date_picker_timeline.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/text_tag.dart';
+import 'package:flutter_maihomie_app/core/models/facility.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
+import 'package:flutter_maihomie_app/core/models/stylist.dart';
+import 'package:flutter_maihomie_app/core/services/auth_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/booking_model.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/views/booking/select_facility_view.dart';
+import 'package:flutter_maihomie_app/ui/views/booking/select_product_view.dart';
+import 'package:flutter_maihomie_app/ui/views/booking/widgets/select_stylist.dart';
+import 'package:flutter_maihomie_app/ui/views/booking/widgets/time_slots.dart';
+import 'package:flutter_maihomie_app/ui/widgets/dialogs/loading_dialog.dart';
+import 'package:flutter_maihomie_app/ui/widgets/elevated_button_icon.dart';
+import 'package:flutter_maihomie_app/ui/widgets/my_date_picker_timeline.dart';
+import 'package:flutter_maihomie_app/ui/widgets/text_tag.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class BookingView extends StatefulWidget {
@@ -160,7 +160,7 @@ class _BookingViewState extends State<BookingView>
               title: appLang(context)!.complete,
               onPressed: model.checkCompleted()
                   ? () async {
-                LoadingDialog.show(context);
+                      LoadingDialog.show(context);
                       var res =
                           await model.complete(notes: notesController.text);
                       LoadingDialog.dismiss(context);
@@ -175,12 +175,12 @@ class _BookingViewState extends State<BookingView>
                         ).show();
                       } else {
                         AwesomeDialog(
-                    context: context,
-                    title: appLang(context)!.has_error,
-                    dialogType: DialogType.ERROR,
-                    btnOkOnPress: () {},
-                  ).show();
-                }
+                          context: context,
+                          title: appLang(context)!.has_error,
+                          dialogType: DialogType.ERROR,
+                          btnOkOnPress: () {},
+                        ).show();
+                      }
                     }
                   : null,
             ),

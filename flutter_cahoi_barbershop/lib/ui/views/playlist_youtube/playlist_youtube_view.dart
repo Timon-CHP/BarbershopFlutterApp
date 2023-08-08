@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/home_page_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/playlist_youtube/widgets/listview_clip.dart';
+import 'package:flutter_maihomie_app/core/state_models/home_page_model.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/views/playlist_youtube/widgets/listview_clip.dart';
 
 class PlaylistYoutube extends StatefulWidget {
   const PlaylistYoutube({Key? key}) : super(key: key);

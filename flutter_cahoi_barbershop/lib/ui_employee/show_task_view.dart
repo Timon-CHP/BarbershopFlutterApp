@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/screen_arguments.dart';
-import 'package:flutter_cahoi_barbershop/core/models/task.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/stylist_model/report_task_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/core/models/screen_arguments.dart';
+import 'package:flutter_maihomie_app/core/models/task.dart';
+import 'package:flutter_maihomie_app/core/state_models/stylist_model/report_task_model.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
 
 class ShowTaskView extends StatefulWidget {
   const ShowTaskView({Key? key}) : super(key: key);

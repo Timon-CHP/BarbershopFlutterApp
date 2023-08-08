@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/stylist.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/avatar.dart';
+import 'package:flutter_maihomie_app/core/models/stylist.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/widgets/avatar.dart';
 
 class SelectStylist extends StatefulWidget {
   const SelectStylist({

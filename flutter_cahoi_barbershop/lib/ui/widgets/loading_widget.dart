@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
 
 class LoadingWidget extends StatelessWidget {
   const LoadingWidget({Key? key}) : super(key: key);

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/post2.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
-import 'package:flutter_cahoi_barbershop/core/services/auth_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/story_model.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/core/models/post2.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
+import 'package:flutter_maihomie_app/core/services/auth_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/story_model.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
 
 class BottomSheetEditPost {
   static show(BuildContext context, Post2 post) async {

@@ -1,4 +1,4 @@
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
 
 /// id : 1
 /// name : "Cắt gội massage"

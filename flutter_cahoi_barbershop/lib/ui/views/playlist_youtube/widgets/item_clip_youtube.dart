@@ -1,8 +1,8 @@
 import 'package:date_format/date_format.dart' as date_format;
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/clip_youtube.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/playlist_youtube/play_clip_view.dart';
+import 'package:flutter_maihomie_app/core/models/clip_youtube.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/views/playlist_youtube/play_clip_view.dart';
 
 class ItemClipYoutube extends StatefulWidget {
   final ClipYouTube item;

@@ -1,15 +1,15 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/image_db.dart';
-import 'package:flutter_cahoi_barbershop/core/models/task.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
-import 'package:flutter_cahoi_barbershop/core/services/auth_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/history_model.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/rating_task_view.dart';
+import 'package:flutter_maihomie_app/core/models/image_db.dart';
+import 'package:flutter_maihomie_app/core/models/task.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
+import 'package:flutter_maihomie_app/core/services/auth_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/history_model.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/rating_task_view.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class ListHistory extends StatefulWidget {

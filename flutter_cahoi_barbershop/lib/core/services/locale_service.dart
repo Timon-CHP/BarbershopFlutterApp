@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/l10n/l10n.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/store_secure.dart';
+import 'package:flutter_maihomie_app/l10n/l10n.dart';
+import 'package:flutter_maihomie_app/ui/utils/store_secure.dart';
 
 class LocaleService {
   StreamController<Locale> localeController = StreamController<Locale>();

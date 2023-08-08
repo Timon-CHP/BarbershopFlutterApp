@@ -1,5 +1,4 @@
-
-import 'package:flutter_cahoi_barbershop/ui/utils/server_config.dart';
+import 'package:flutter_maihomie_app/ui/utils/server_config.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPreferencesService {
@@ -14,7 +13,7 @@ class SharedPreferencesService {
     prefs?.setInt(keyLoginWithSocial, typeSocial.index);
   }
 
-  int getSocial()  {
+  int getSocial() {
     return prefs?.getInt(keyLoginWithSocial) ?? 0;
   }
 

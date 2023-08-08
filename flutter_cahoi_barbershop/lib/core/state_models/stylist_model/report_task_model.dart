@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_cahoi_barbershop/core/models/discount.dart';
-import 'package:flutter_cahoi_barbershop/core/models/task.dart';
-import 'package:flutter_cahoi_barbershop/core/services/task_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/base.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
+import 'package:flutter_maihomie_app/core/models/discount.dart';
+import 'package:flutter_maihomie_app/core/models/task.dart';
+import 'package:flutter_maihomie_app/core/services/task_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/base.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 

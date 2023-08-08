@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/elevated_button_icon.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/widgets/elevated_button_icon.dart';
 
 class InfoProductView extends StatefulWidget {
   const InfoProductView({Key? key}) : super(key: key);

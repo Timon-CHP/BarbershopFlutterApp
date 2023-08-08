@@ -2,14 +2,14 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/screen_arguments.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/admin_model/hr_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/dialogs/loading_dialog.dart';
+import 'package:flutter_maihomie_app/core/models/screen_arguments.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
+import 'package:flutter_maihomie_app/core/state_models/admin_model/hr_model.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/widgets/dialogs/loading_dialog.dart';
 
 class HRTab extends StatefulWidget {
   const HRTab({Key? key}) : super(key: key);

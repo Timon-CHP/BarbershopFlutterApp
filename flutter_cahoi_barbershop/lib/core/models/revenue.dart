@@ -1,4 +1,4 @@
-import 'package:flutter_cahoi_barbershop/core/models/facility.dart';
+import 'package:flutter_maihomie_app/core/models/facility.dart';
 
 /// id : 1
 /// total_revenue_month : 58448

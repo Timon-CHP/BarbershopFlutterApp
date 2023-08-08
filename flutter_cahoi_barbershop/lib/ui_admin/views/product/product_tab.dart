@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
-import 'package:flutter_cahoi_barbershop/core/models/type_product_2.dart';
-import 'package:flutter_cahoi_barbershop/core/services/booking_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/admin_model/product_model.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/dialogs/success_dialog.dart';
-import 'package:flutter_cahoi_barbershop/ui_admin/views/product/add_product.dart';
-import 'package:flutter_cahoi_barbershop/ui_admin/views/product/edit_product.dart';
-import 'package:flutter_cahoi_barbershop/ui_admin/views/product/show_product_view.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
+import 'package:flutter_maihomie_app/core/models/type_product_2.dart';
+import 'package:flutter_maihomie_app/core/services/booking_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/admin_model/product_model.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/widgets/dialogs/success_dialog.dart';
+import 'package:flutter_maihomie_app/ui_admin/views/product/add_product.dart';
+import 'package:flutter_maihomie_app/ui_admin/views/product/edit_product.dart';
+import 'package:flutter_maihomie_app/ui_admin/views/product/show_product_view.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class ProductTab extends StatefulWidget {

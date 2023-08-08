@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/clip_youtube.dart';
-import 'package:flutter_cahoi_barbershop/core/services/youtube_service.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/core/models/clip_youtube.dart';
+import 'package:flutter_maihomie_app/core/services/youtube_service.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
 
 class HomePageModel extends ChangeNotifier {
   final _youtubeApi = locator<YoutubeService>();

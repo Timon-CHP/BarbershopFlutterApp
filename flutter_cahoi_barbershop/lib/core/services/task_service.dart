@@ -1,11 +1,11 @@
 // ignore_for_file: implementation_imports
 
 import 'package:dio/src/form_data.dart';
-import 'package:flutter_cahoi_barbershop/core/apis/api.dart';
-import 'package:flutter_cahoi_barbershop/core/models/discount.dart';
-import 'package:flutter_cahoi_barbershop/core/models/rating.dart';
-import 'package:flutter_cahoi_barbershop/core/models/task.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
+import 'package:flutter_maihomie_app/core/apis/api.dart';
+import 'package:flutter_maihomie_app/core/models/discount.dart';
+import 'package:flutter_maihomie_app/core/models/rating.dart';
+import 'package:flutter_maihomie_app/core/models/task.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
 
 class TaskService {
   final _api = locator<Api>();

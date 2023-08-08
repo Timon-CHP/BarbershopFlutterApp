@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
 
 class CustomStringDropDown extends StatefulWidget {
   const CustomStringDropDown({

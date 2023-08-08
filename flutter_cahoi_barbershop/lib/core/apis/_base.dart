@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_cahoi_barbershop/core/models/response.dart' as api_res;
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/core/models/response.dart' as api_res;
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
 
 class ApiBase {
   var options = BaseOptions(

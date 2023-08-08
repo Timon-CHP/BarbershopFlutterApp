@@ -1,8 +1,8 @@
 import 'package:date_format/date_format.dart' as date_format;
 // ignore: implementation_imports
 import 'package:dio/src/form_data.dart';
-import 'package:flutter_cahoi_barbershop/core/models/response.dart' as api_res;
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/core/models/response.dart' as api_res;
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
 
 import '_base.dart';
 

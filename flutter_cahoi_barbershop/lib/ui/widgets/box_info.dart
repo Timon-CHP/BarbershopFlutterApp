@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
 
 class BoxInfo extends StatelessWidget {
   const BoxInfo({Key? key, this.height, this.width, this.title, this.content})

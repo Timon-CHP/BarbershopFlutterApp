@@ -1,5 +1,5 @@
-import 'package:flutter_cahoi_barbershop/core/models/image_db.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
+import 'package:flutter_maihomie_app/core/models/image_db.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
 
 /// id : 1
 /// captions : "thự là tiệt zời"

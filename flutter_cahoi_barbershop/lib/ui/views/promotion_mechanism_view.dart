@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
 
 class PromotionMechanismView extends StatefulWidget {
   const PromotionMechanismView({Key? key}) : super(key: key);

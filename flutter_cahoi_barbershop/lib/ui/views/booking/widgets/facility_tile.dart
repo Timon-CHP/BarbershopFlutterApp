@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/facility.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/core/models/facility.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
 
 /// @param distance có đơn vị là m
 class FacilityTile extends StatefulWidget {

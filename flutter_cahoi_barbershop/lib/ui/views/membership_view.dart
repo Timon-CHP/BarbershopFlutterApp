@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/promotion_mechanism_view.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/views/promotion_mechanism_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class MembershipView extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:flutter_cahoi_barbershop/core/models/clip_youtube.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/core/models/clip_youtube.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
 import 'package:http/http.dart';
 
 class YoutubeService {

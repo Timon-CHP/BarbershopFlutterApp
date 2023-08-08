@@ -1,4 +1,4 @@
-import 'package:flutter_cahoi_barbershop/core/models/image_db.dart';
+import 'package:flutter_maihomie_app/core/models/image_db.dart';
 
 /// id : 1
 /// status : 1

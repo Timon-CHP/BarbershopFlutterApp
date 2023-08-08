@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/booking_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/booking/widgets/facility_tile.dart';
+import 'package:flutter_maihomie_app/core/state_models/booking_model.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/views/booking/widgets/facility_tile.dart';
 import 'package:geolocator/geolocator.dart';
 
 class SelectFacilityView extends StatefulWidget {

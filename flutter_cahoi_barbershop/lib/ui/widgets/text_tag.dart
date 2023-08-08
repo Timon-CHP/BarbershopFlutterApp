@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
 
 class TextTag extends StatelessWidget {
   final Product product;

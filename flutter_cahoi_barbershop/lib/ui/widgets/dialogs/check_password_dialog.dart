@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/auth_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/core/state_models/auth_model.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
 
 class CheckPasswordDialog {
   static Future<bool?> show(BuildContext context) async {

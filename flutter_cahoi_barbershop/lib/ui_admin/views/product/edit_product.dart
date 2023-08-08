@@ -2,16 +2,16 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
-import 'package:flutter_cahoi_barbershop/core/models/type_product_2.dart';
-import 'package:flutter_cahoi_barbershop/core/services/booking_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/admin_model/product_model.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/button_login.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/dialogs/success_dialog.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
+import 'package:flutter_maihomie_app/core/models/type_product_2.dart';
+import 'package:flutter_maihomie_app/core/services/booking_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/admin_model/product_model.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/widgets/button_login.dart';
+import 'package:flutter_maihomie_app/ui/widgets/dialogs/success_dialog.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -86,57 +86,57 @@ class _EditProductViewState extends State<EditProductView> {
                 },
                 child: image == null
                     ? SizedBox(
-                  height: size.width,
-                  width: size.width,
-                  child: Stack(
-                    fit: StackFit.expand,
-                    children: [
-                      Image.network(
-                        "$localHost${product.image}",
-                        fit: BoxFit.cover,
-                        errorBuilder: (context, error, stackTrace) =>
-                        const Icon(
-                          Icons.error,
-                          color: Colors.red,
+                        height: size.width,
+                        width: size.width,
+                        child: Stack(
+                          fit: StackFit.expand,
+                          children: [
+                            Image.network(
+                              "$localHost${product.image}",
+                              fit: BoxFit.cover,
+                              errorBuilder: (context, error, stackTrace) =>
+                                  const Icon(
+                                Icons.error,
+                                color: Colors.red,
+                              ),
+                            ),
+                            const Positioned(
+                              bottom: 20,
+                              right: 20,
+                              child: Icon(
+                                Icons.edit,
+                                size: 30,
+                              ),
+                            ),
+                          ],
                         ),
-                      ),
-                      const Positioned(
-                        bottom: 20,
-                        right: 20,
-                        child: Icon(
-                          Icons.edit,
-                          size: 30,
-                        ),
-                      ),
-                    ],
-                  ),
-                )
+                      )
                     : SizedBox(
-                  height: size.width,
-                  width: size.width,
-                  child: Stack(
-                    fit: StackFit.expand,
-                    children: [
-                      Image.file(
-                        File(image?.path ?? ""),
-                        fit: BoxFit.cover,
-                        errorBuilder: (context, error, stackTrace) =>
-                        const Icon(
-                          Icons.error,
-                          color: Colors.red,
+                        height: size.width,
+                        width: size.width,
+                        child: Stack(
+                          fit: StackFit.expand,
+                          children: [
+                            Image.file(
+                              File(image?.path ?? ""),
+                              fit: BoxFit.cover,
+                              errorBuilder: (context, error, stackTrace) =>
+                                  const Icon(
+                                Icons.error,
+                                color: Colors.red,
+                              ),
+                            ),
+                            const Positioned(
+                              bottom: 20,
+                              right: 20,
+                              child: Icon(
+                                Icons.edit,
+                                size: 30,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                      const Positioned(
-                        bottom: 20,
-                        right: 20,
-                        child: Icon(
-                          Icons.edit,
-                          size: 30,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
               ),
               Padding(
                 padding: const EdgeInsets.all(12.0),
@@ -266,7 +266,7 @@ class _EditProductViewState extends State<EditProductView> {
           ),
         ),
         floatingActionButtonLocation:
-        FloatingActionButtonLocation.miniCenterFloat,
+            FloatingActionButtonLocation.miniCenterFloat,
         floatingActionButton: BaseButton(
           height: 50,
           width: size.width * 0.8,

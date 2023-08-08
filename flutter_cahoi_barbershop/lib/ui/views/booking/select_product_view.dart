@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/type_product.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/booking_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/booking/widgets/product_tile.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/elevated_button_icon.dart';
+import 'package:flutter_maihomie_app/core/models/type_product.dart';
+import 'package:flutter_maihomie_app/core/state_models/booking_model.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/views/booking/widgets/product_tile.dart';
+import 'package:flutter_maihomie_app/ui/widgets/elevated_button_icon.dart';
 
 class SelectProductView extends StatefulWidget {
   final BookingModel model;

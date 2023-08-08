@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/view_state.dart';
+import 'package:flutter_maihomie_app/core/view_state.dart';
 
 class BaseModel extends ChangeNotifier {
   ViewState _state = ViewState.idle;

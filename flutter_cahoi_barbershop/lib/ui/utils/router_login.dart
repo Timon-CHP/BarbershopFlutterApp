@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/server_config.dart';
+import 'package:flutter_maihomie_app/ui/utils/server_config.dart';
 
 class RouterLogin {
   static navigation(BuildContext context, {required Role role}) {
@@ -30,7 +30,7 @@ class RouterLogin {
         Navigator.pushNamedAndRemoveUntil(
           context,
           '/employee-home',
-              (route) => false,
+          (route) => false,
         );
         break;
       default:

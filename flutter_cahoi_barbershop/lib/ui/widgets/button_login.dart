@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
 
 class BaseButton extends StatefulWidget {
   final double height;

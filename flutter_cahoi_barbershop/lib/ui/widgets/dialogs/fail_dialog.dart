@@ -1,6 +1,6 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
 
 class FailDialog {
   static show(BuildContext context, {String? title, Function()? btnOkOnPress}) {

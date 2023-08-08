@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
 import 'package:provider/provider.dart';
 
 class BaseView<T extends ChangeNotifier> extends StatefulWidget {

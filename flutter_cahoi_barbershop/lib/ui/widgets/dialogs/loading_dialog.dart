@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class LoadingDialog {

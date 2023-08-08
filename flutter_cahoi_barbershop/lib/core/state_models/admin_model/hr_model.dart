@@ -1,10 +1,10 @@
-import 'package:flutter_cahoi_barbershop/core/models/facility.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
-import 'package:flutter_cahoi_barbershop/core/services/booking_service.dart';
-import 'package:flutter_cahoi_barbershop/core/services/role_service.dart';
-import 'package:flutter_cahoi_barbershop/core/services/user_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/base.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
+import 'package:flutter_maihomie_app/core/models/facility.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
+import 'package:flutter_maihomie_app/core/services/booking_service.dart';
+import 'package:flutter_maihomie_app/core/services/role_service.dart';
+import 'package:flutter_maihomie_app/core/services/user_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/base.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class HRModel extends BaseModel {
@@ -92,7 +92,7 @@ class HRModel extends BaseModel {
       currentFacility = facilities.firstWhere(
         (element) => element.id == currentFacility!.id,
       );
-    }else{
+    } else {
       currentFacility = facilities.first;
     }
     notifyListeners();

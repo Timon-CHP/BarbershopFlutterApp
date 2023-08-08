@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/services/auth_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/history_model.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/box_info.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/components/list_history.dart';
+import 'package:flutter_maihomie_app/core/services/auth_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/history_model.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/widgets/box_info.dart';
+import 'package:flutter_maihomie_app/ui/widgets/components/list_history.dart';
 import 'package:showcaseview/showcaseview.dart';
 
 class HistoryView extends StatefulWidget {

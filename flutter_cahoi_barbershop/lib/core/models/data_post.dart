@@ -1,4 +1,4 @@
-import 'package:flutter_cahoi_barbershop/core/models/post2.dart';
+import 'package:flutter_maihomie_app/core/models/post2.dart';
 
 class DataPost {
   DataPost({

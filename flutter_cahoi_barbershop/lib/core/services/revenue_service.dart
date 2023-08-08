@@ -1,6 +1,6 @@
-import 'package:flutter_cahoi_barbershop/core/apis/api.dart';
-import 'package:flutter_cahoi_barbershop/core/models/revenue.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
+import 'package:flutter_maihomie_app/core/apis/api.dart';
+import 'package:flutter_maihomie_app/core/models/revenue.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
 
 class RevenueService {
   final _api = locator<Api>();

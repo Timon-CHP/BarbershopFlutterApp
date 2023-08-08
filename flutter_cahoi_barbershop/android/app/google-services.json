@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "499610133600-m3mr84d6la29vfhaefr254ubn6q34gm1.apps.googleusercontent.com",
+          "client_id": "499610133600-1l1qtffmtiikbnes82m1ght1qc0udef7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maihomie.serviceapp",
+            "certificate_hash": "d620f897330cef573197f16f43f6bf6b8f25f293"
+          }
+        },
+        {
+          "client_id": "499610133600-esajdmnmuj0uemiv0bd7e30e1svrvpk8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +35,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "499610133600-m3mr84d6la29vfhaefr254ubn6q34gm1.apps.googleusercontent.com",
+              "client_id": "499610133600-esajdmnmuj0uemiv0bd7e30e1svrvpk8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

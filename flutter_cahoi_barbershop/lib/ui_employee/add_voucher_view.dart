@@ -3,13 +3,13 @@ import 'dart:async';
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/discount.dart';
-import 'package:flutter_cahoi_barbershop/core/models/task.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/stylist_model/report_task_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/dialogs/fail_dialog.dart';
+import 'package:flutter_maihomie_app/core/models/discount.dart';
+import 'package:flutter_maihomie_app/core/models/task.dart';
+import 'package:flutter_maihomie_app/core/state_models/stylist_model/report_task_model.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/widgets/dialogs/fail_dialog.dart';
 
 class AddVoucherView extends StatefulWidget {
   const AddVoucherView({Key? key}) : super(key: key);

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/rating.dart';
-import 'package:flutter_cahoi_barbershop/core/models/task.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/history_model.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/button_login.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/dialogs/loading_dialog.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/dialogs/success_dialog.dart';
+import 'package:flutter_maihomie_app/core/models/rating.dart';
+import 'package:flutter_maihomie_app/core/models/task.dart';
+import 'package:flutter_maihomie_app/core/state_models/history_model.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/widgets/button_login.dart';
+import 'package:flutter_maihomie_app/ui/widgets/dialogs/loading_dialog.dart';
+import 'package:flutter_maihomie_app/ui/widgets/dialogs/success_dialog.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

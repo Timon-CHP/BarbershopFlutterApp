@@ -1,22 +1,22 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:date_format/date_format.dart' as date_format;
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/fake-data/data.dart';
-import 'package:flutter_cahoi_barbershop/core/models/clip_youtube.dart';
-import 'package:flutter_cahoi_barbershop/core/services/auth_service.dart';
-import 'package:flutter_cahoi_barbershop/core/services/booking_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/home_page_model.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/style.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/_base.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/membership_view.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/playlist_youtube/play_clip_view.dart';
-import 'package:flutter_cahoi_barbershop/ui/views/playlist_youtube/playlist_youtube_view.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/avatar.dart';
-import 'package:flutter_cahoi_barbershop/ui/widgets/slider_image.dart';
+import 'package:flutter_maihomie_app/core/fake-data/data.dart';
+import 'package:flutter_maihomie_app/core/models/clip_youtube.dart';
+import 'package:flutter_maihomie_app/core/services/auth_service.dart';
+import 'package:flutter_maihomie_app/core/services/booking_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/home_page_model.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/style.dart';
+import 'package:flutter_maihomie_app/ui/views/_base.dart';
+import 'package:flutter_maihomie_app/ui/views/membership_view.dart';
+import 'package:flutter_maihomie_app/ui/views/playlist_youtube/play_clip_view.dart';
+import 'package:flutter_maihomie_app/ui/views/playlist_youtube/playlist_youtube_view.dart';
+import 'package:flutter_maihomie_app/ui/widgets/avatar.dart';
+import 'package:flutter_maihomie_app/ui/widgets/slider_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class HomePageView extends StatefulWidget {

@@ -1,9 +1,9 @@
-import 'package:flutter_cahoi_barbershop/core/models/discount.dart';
-import 'package:flutter_cahoi_barbershop/core/models/image_db.dart';
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
-import 'package:flutter_cahoi_barbershop/core/models/stylist.dart';
-import 'package:flutter_cahoi_barbershop/core/models/time_slot.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
+import 'package:flutter_maihomie_app/core/models/discount.dart';
+import 'package:flutter_maihomie_app/core/models/image_db.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
+import 'package:flutter_maihomie_app/core/models/stylist.dart';
+import 'package:flutter_maihomie_app/core/models/time_slot.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
 
 /// id : 192
 /// status : 1

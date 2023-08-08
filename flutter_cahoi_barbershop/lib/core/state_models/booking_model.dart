@@ -1,15 +1,15 @@
 import 'package:date_format/date_format.dart' as format_date;
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/models/facility.dart';
-import 'package:flutter_cahoi_barbershop/core/models/product.dart';
-import 'package:flutter_cahoi_barbershop/core/models/stylist.dart';
-import 'package:flutter_cahoi_barbershop/core/models/time_slot.dart';
-import 'package:flutter_cahoi_barbershop/core/models/type_product.dart';
-import 'package:flutter_cahoi_barbershop/core/services/booking_service.dart';
-import 'package:flutter_cahoi_barbershop/core/state_models/base.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/constants.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/core/models/facility.dart';
+import 'package:flutter_maihomie_app/core/models/product.dart';
+import 'package:flutter_maihomie_app/core/models/stylist.dart';
+import 'package:flutter_maihomie_app/core/models/time_slot.dart';
+import 'package:flutter_maihomie_app/core/models/type_product.dart';
+import 'package:flutter_maihomie_app/core/services/booking_service.dart';
+import 'package:flutter_maihomie_app/core/state_models/base.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/constants.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
 import 'package:geolocator/geolocator.dart';
 
 class BookingModel extends BaseModel {

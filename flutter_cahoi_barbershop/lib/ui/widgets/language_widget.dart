@@ -1,9 +1,9 @@
 import 'package:animated_toggle_switch/animated_toggle_switch.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/services/locale_service.dart';
-import 'package:flutter_cahoi_barbershop/l10n/l10n.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/core/services/locale_service.dart';
+import 'package:flutter_maihomie_app/l10n/l10n.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
 
 class LanguageWidget extends StatefulWidget {
   const LanguageWidget({Key? key}) : super(key: key);

@@ -1,16 +1,16 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/apis/api.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
-import 'package:flutter_cahoi_barbershop/core/services/auth_service.dart';
-import 'package:flutter_cahoi_barbershop/core/services/booking_service.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/colors.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/helper.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/router_login.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/server_config.dart';
-import 'package:flutter_cahoi_barbershop/ui/utils/store_secure.dart';
+import 'package:flutter_maihomie_app/core/apis/api.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
+import 'package:flutter_maihomie_app/core/services/auth_service.dart';
+import 'package:flutter_maihomie_app/core/services/booking_service.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
+import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:flutter_maihomie_app/ui/utils/helper.dart';
+import 'package:flutter_maihomie_app/ui/utils/router_login.dart';
+import 'package:flutter_maihomie_app/ui/utils/server_config.dart';
+import 'package:flutter_maihomie_app/ui/utils/store_secure.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({Key? key}) : super(key: key);

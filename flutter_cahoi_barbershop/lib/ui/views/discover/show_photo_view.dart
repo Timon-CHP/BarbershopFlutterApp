@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_cahoi_barbershop/core/fake-data/data.dart';
+import 'package:flutter_maihomie_app/core/fake-data/data.dart';
 
 class ShowPhotoView extends StatefulWidget {
   final int currentPhoto;

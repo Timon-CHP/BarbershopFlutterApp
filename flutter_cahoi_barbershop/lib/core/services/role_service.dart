@@ -1,6 +1,6 @@
-import 'package:flutter_cahoi_barbershop/core/apis/api.dart';
-import 'package:flutter_cahoi_barbershop/core/models/user.dart';
-import 'package:flutter_cahoi_barbershop/service_locator.dart';
+import 'package:flutter_maihomie_app/core/apis/api.dart';
+import 'package:flutter_maihomie_app/core/models/user.dart';
+import 'package:flutter_maihomie_app/service_locator.dart';
 
 class RoleService {
   final Api _api = locator<Api>();
@@ -19,18 +19,19 @@ class RoleService {
     return [];
   }
 
-  Future<bool> syncRole({required int userId, required String roleName, int? facilityId}) async {
-    Map<String, dynamic> data =  {
+  Future<bool> syncRole(
+      {required int userId, required String roleName, int? facilityId}) async {
+    Map<String, dynamic> data = {
       "user_id": userId,
       "role_name": roleName,
     };
 
-    if(facilityId!= null){
+    if (facilityId != null) {
       data['facility_id'] = facilityId;
     }
 
     var res = await _api.syncRole(data: data);
-    if(res != null){
+    if (res != null) {
       return res.data;
     }
     return false;
