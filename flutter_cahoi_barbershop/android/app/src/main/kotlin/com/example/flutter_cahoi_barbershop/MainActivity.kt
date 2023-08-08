@@ -1,4 +1,4 @@
-package com.example.flutter_cahoi_barbershop
+package com.maihomie.serviceapp
 
 import io.flutter.embedding.android.FlutterActivity
 
