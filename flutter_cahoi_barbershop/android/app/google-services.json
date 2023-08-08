@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "499610133600-ej24nm87vpfl4f0spf591pf3rj1fcuj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maihomie.serviceapp",
+            "certificate_hash": "c53016ece26f945d591ebe8aafc64a8a55e99f06"
+          }
+        },
+        {
           "client_id": "499610133600-esajdmnmuj0uemiv0bd7e30e1svrvpk8.apps.googleusercontent.com",
           "client_type": 3
         }
