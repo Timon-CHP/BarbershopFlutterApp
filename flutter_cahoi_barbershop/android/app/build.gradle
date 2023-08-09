@@ -51,9 +51,27 @@ android {
         versionName flutterVersionName
     }
 
+    signingConfigs { 
+        debug {
+            keyAlias 'maihomie'
+            keyPassword 'abcd1234'
+            storeFile file('maihomie.keystore')
+            storePassword 'abcd1234'
+        }
+        production {
+            keyAlias 'maihomie'
+            keyPassword 'abcd1234'
+            storeFile file('maihomie.keystore')
+            storePassword 'abcd1234'
+        }
+    }
+
     buildTypes {
-        release {
+        debug {
             signingConfig signingConfigs.debug
+        }
+        release {
+            signingConfig signingConfigs.production
             minifyEnabled false
             shrinkResources false
         }

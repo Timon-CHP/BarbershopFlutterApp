@@ -19,7 +19,7 @@ void main() async {
   // to hide only status bar & bottom bar
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge, overlays: []);
 
-  //auto rotate when running the app
+  // auto rotate when running the app
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitDown,
     DeviceOrientation.portraitUp,

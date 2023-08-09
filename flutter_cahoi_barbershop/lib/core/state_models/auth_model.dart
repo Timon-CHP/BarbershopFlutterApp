@@ -57,7 +57,7 @@ class AuthModel extends BaseModel {
   Future<bool> loginWithGoogle() async {
     googleAccount = await _googleAuth.signIn();
 
-    if (googleAccount != null) {
+    if (googleAccount == null) {
       return await _authService.loginWithGoogle(
         name: googleAccount!.displayName ?? "",
         email: googleAccount!.email,

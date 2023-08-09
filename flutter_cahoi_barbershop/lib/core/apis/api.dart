@@ -50,7 +50,8 @@ class Api extends ApiBase {
       var res = await dio.post('/auth/register', data: data);
       return castRes(res);
     } catch (e) {
-      return null;
+      return api_res.Response(
+          success: false, errorCode: 401, message: e.toString(), data: data);
     }
   }
 
