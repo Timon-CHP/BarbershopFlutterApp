@@ -260,10 +260,10 @@ class _EnterPasswordViewState extends State<EnterPasswordView> {
       Padding(
         padding: const EdgeInsets.all(12.0),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          TextRegex(
-            title: appLang(context)!.warning_upcase,
-            validated: isUppercase,
-          ),
+          // TextRegex(
+          //   title: appLang(context)!.warning_upcase,
+          //   validated: isUppercase,
+          // ),
           TextRegex(
             title: appLang(context)!.warning_numeric,
             validated: isNumeric,

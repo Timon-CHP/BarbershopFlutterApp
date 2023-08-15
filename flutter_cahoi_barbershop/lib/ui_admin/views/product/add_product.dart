@@ -232,10 +232,6 @@ class _AddProductViewState extends State<AddProductView> {
           onPressed: () async {
             LoadingDialog.show(context);
 
-            if (image == null) {
-              Fluttertoast.showToast(msg: "Chưa thêm ảnh");
-              return;
-            }
             if (sortDController.text.isEmpty ||
                 descriptionController.text.isEmpty ||
                 nameController.text.isEmpty ||

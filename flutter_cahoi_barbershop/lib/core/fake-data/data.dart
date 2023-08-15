@@ -9,11 +9,11 @@ const List<String> imagePostDemo = [
 ];
 
 List<Widget> itemsSlider = [
-  Image.asset("assets/slider_demo/demo1.png"),
-  Image.asset("assets/slider_demo/demo2.png"),
-  Image.asset("assets/slider_demo/demo3.png"),
-  Image.asset("assets/slider_demo/demo4.png"),
-  Image.asset("assets/slider_demo/demo5.png"),
+  Image.asset("assets/slider_demo/demo1.jpeg"),
+  Image.asset("assets/slider_demo/demo2.jpeg"),
+  Image.asset("assets/slider_demo/demo3.jpeg"),
+  Image.asset("assets/slider_demo/demo4.jpeg"),
+  Image.asset("assets/slider_demo/demo5.jpeg"),
 ];
 
 List<Discover> photos = [

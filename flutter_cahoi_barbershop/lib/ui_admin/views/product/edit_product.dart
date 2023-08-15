@@ -92,7 +92,7 @@ class _EditProductViewState extends State<EditProductView> {
                           fit: StackFit.expand,
                           children: [
                             Image.network(
-                              "$localHost${product.image}",
+                              "${product.image}",
                               fit: BoxFit.cover,
                               errorBuilder: (context, error, stackTrace) =>
                                   const Icon(

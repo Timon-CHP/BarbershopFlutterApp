@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_maihomie_app/core/models/product.dart';
 import 'package:flutter_maihomie_app/ui/utils/colors.dart';
+import 'package:intl/intl.dart';
 
 class TextTag extends StatelessWidget {
   final Product product;
@@ -9,6 +10,7 @@ class TextTag extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var formater = NumberFormat("###,###");
     return Material(
       elevation: 8,
       child: Container(
@@ -32,7 +34,7 @@ class TextTag extends StatelessWidget {
                 color: Colors.yellow,
               ),
               child: Text(
-                "${product.price}K",
+                "${formater.format(product.price)}K",
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(color: primaryColor),

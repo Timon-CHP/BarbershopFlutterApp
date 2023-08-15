@@ -61,7 +61,7 @@ class _HomePageViewState extends State<HomePageView> {
                     return const Icon(Icons.error);
                   },
                 ),
-                const Text('Mr.Cahoi')
+                const Text('Mai Homie')
               ],
             ),
           ),
@@ -93,70 +93,70 @@ class _HomePageViewState extends State<HomePageView> {
                       height: size.height * 0.188,
                       width: size.width,
                       child: Image.asset(
-                        "assets/bg_cahoibarbershop.jpg",
+                        "assets/bg_login.png",
                         fit: BoxFit.fitWidth,
-                        color: Colors.black.withOpacity(0.7),
+                        color: Colors.black.withOpacity(0),
                         colorBlendMode: BlendMode.colorBurn,
                       ),
                     ),
                   ),
-                  Positioned(
-                    top: 12,
-                    left: 12,
-                    right: 12,
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Avatar(
-                          height: size.width * 0.18,
-                          src: user.avatar != null
-                              ? "$localHost${user.avatar}"
-                              : avatarDefault,
-                        ),
-                        Expanded(
-                          child: Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8.0,
-                              vertical: 4.0,
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                const SizedBox(
-                                  height: 8,
-                                ),
-                                Text(
-                                  "${user.name}",
-                                  style: const TextStyle(
-                                    fontSize: 24,
-                                    fontFamily: fontBold,
-                                    color: headerColor1,
-                                  ),
-                                ),
-                                const SizedBox(
-                                  height: 8,
-                                ),
-                                Text(
-                                  "${appLang(context)!.your_rank} ${user.rank?.rankName}",
-                                  style: TextStyle(
-                                      color: user.rank?.id == 1
-                                          ? Colors.white
-                                          : Colors.yellow,
-                                      shadows: const [
-                                        Shadow(
-                                            color: Colors.white,
-                                            offset: Offset(0, 0),
-                                            blurRadius: 10),
-                                      ]),
-                                ),
-                              ],
-                            ),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
+                  // Positioned(
+                  //   top: 12,
+                  //   left: 12,
+                  //   right: 12,
+                  //   child: Row(
+                  //     crossAxisAlignment: CrossAxisAlignment.start,
+                  //     children: [
+                  //       Avatar(
+                  //         height: size.width * 0.18,
+                  //         src: user.avatar != null
+                  //             ? "$localHost${user.avatar}"
+                  //             : avatarDefault,
+                  //       ),
+                  //       Expanded(
+                  //         child: Container(
+                  //           padding: const EdgeInsets.symmetric(
+                  //             horizontal: 8.0,
+                  //             vertical: 4.0,
+                  //           ),
+                  //           child: Column(
+                  //             crossAxisAlignment: CrossAxisAlignment.start,
+                  //             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  //             children: [
+                  //               const SizedBox(
+                  //                 height: 8,
+                  //               ),
+                  //               Text(
+                  //                 "${user.name}",
+                  //                 style: const TextStyle(
+                  //                   fontSize: 24,
+                  //                   fontFamily: fontBold,
+                  //                   color: headerColor1,
+                  //                 ),
+                  //               ),
+                  //               const SizedBox(
+                  //                 height: 8,
+                  //               ),
+                  //               Text(
+                  //                 "${appLang(context)!.your_rank} ${user.rank?.rankName}",
+                  //                 style: TextStyle(
+                  //                     color: user.rank?.id == 1
+                  //                         ? Colors.white
+                  //                         : Colors.yellow,
+                  //                     shadows: const [
+                  //                       Shadow(
+                  //                           color: Colors.white,
+                  //                           offset: Offset(0, 0),
+                  //                           blurRadius: 10),
+                  //                     ]),
+                  //               ),
+                  //             ],
+                  //           ),
+                  //         ),
+                  //       )
+                  //     ],
+                  //   ),
+                  // ),
                   Positioned(
                     bottom: 12,
                     left: 12,
@@ -201,17 +201,17 @@ class _HomePageViewState extends State<HomePageView> {
                                 Navigator.pushNamed(context, '/history');
                               },
                             ),
-                            _buildNaviRoute(
-                              context: context,
-                              icons: "assets/ic_membership.png",
-                              title: appLang(context)!.navi_home_member,
-                              onTap: () {
-                                Navigator.pushNamed(
-                                  context,
-                                  MembershipView.name,
-                                );
-                              },
-                            ),
+                            // _buildNaviRoute(
+                            //   context: context,
+                            //   icons: "assets/ic_membership.png",
+                            //   title: appLang(context)!.navi_home_member,
+                            //   onTap: () {
+                            //     Navigator.pushNamed(
+                            //       context,
+                            //       MembershipView.name,
+                            //     );
+                            //   },
+                            // ),
                             // _buildNaviRoute(
                             //   context: context,
                             //   icons: "assets/ic_gift.png",
@@ -246,7 +246,7 @@ class _HomePageViewState extends State<HomePageView> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               const Text(
-                                "CAHOI TV",
+                                "MaiHomie's videos",
                                 style: TextStyle(
                                   fontSize: 16,
                                   fontFamily: fontBold,

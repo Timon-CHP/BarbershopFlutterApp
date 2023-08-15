@@ -6,19 +6,16 @@ import 'package:flutter_maihomie_app/service_locator.dart';
 import 'package:flutter_maihomie_app/ui/utils/store_secure.dart';
 
 class AuthenticationService {
-  final _api = locator<Api>();
-
-  final _storeSecure = locator<StoreSecure>();
-
+  MUser user = MUser.initial();
   StreamController<MUser> userController = StreamController<MUser>();
 
+  final _api = locator<Api>();
+  final _storeSecure = locator<StoreSecure>();
   final _userResponse = StreamController<MUser>.broadcast();
 
   Stream<MUser> get userResponse => _userResponse.stream;
 
   Function(MUser) get addUserResponse => _userResponse.sink.add;
-
-  MUser user = MUser.initial();
 
   Future<bool?> checkUserExist({required String phoneNumber}) async {
     var res = await _api.checkUserExist(phoneNumber: phoneNumber);
@@ -26,10 +23,7 @@ class AuthenticationService {
     if (res != null) {
       return res.data;
     } else {
-      if (res!.data) {
-        return false;
-      }
-      return null;
+      return false;
     }
   }
 
@@ -107,7 +101,7 @@ class AuthenticationService {
       },
     );
 
-    if (res != null && res.data) {
+    if (res != null && res.data != null) {
       return true;
     }
 

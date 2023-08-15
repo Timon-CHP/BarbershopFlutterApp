@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:flutter_maihomie_app/core/models/product.dart';
 import 'package:flutter_maihomie_app/ui/utils/constants.dart';
 import 'package:flutter_maihomie_app/ui/utils/helper.dart';
@@ -27,6 +28,7 @@ class ProductTile extends StatefulWidget {
 class _ProductTileState extends State<ProductTile> {
   @override
   Widget build(BuildContext context) {
+    var formatter = NumberFormat('###,###');
     return GestureDetector(
       onTap: () async {
         var res = await Navigator.pushNamed(
@@ -53,7 +55,7 @@ class _ProductTileState extends State<ProductTile> {
                   child: Hero(
                     tag: widget.product.id,
                     child: Image.network(
-                      '$localHost${widget.product.image}',
+                      '${widget.product.image}',
                       height: double.infinity,
                       width: double.infinity,
                       fit: BoxFit.cover,
@@ -96,7 +98,7 @@ class _ProductTileState extends State<ProductTile> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          '${widget.product.price}K',
+                          '${formatter.format(widget.product.price)}K',
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(

@@ -42,7 +42,7 @@ class _ShowProductViewState extends State<ShowProductView> {
             Hero(
               tag: product.id,
               child: Image.network(
-                '$localHost${product.image}',
+                '${product.image}',
                 fit: BoxFit.cover,
                 height: size.width,
                 width: size.width,

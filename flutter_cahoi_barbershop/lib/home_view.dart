@@ -20,9 +20,9 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   final List<Widget> _listPage = [
     const HomePageView(),
-    const DiscoverPageView(),
-    const StoryPageView(),
+    // const DiscoverPageView(),
     const AccountPageView(),
+    // const StoryPageView(),
   ];
 
   int _currentIndex = 0;
@@ -62,16 +62,16 @@ class _HomeViewState extends State<HomeView> {
               ),
               label: 'Home',
             ),
-            BottomNavigationBarItem(
-              icon: const Icon(
-                Icons.search,
-              ),
-              label: appLang(context)!.bottombar_discovery,
-            ),
-            BottomNavigationBarItem(
-              icon: const Icon(Icons.history_edu_rounded),
-              label: appLang(context)!.bottombar_story,
-            ),
+            // BottomNavigationBarItem(
+            //   icon: const Icon(
+            //     Icons.search,
+            //   ),
+            //   label: appLang(context)!.bottombar_discovery,
+            // ),
+            // BottomNavigationBarItem(
+            //   icon: const Icon(Icons.history_edu_rounded),
+            //   label: appLang(context)!.bottombar_story,
+            // ),
             BottomNavigationBarItem(
               icon: const Icon(
                 Icons.person,

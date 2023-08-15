@@ -19,6 +19,7 @@ import 'package:flutter_maihomie_app/ui/widgets/elevated_button_icon.dart';
 import 'package:flutter_maihomie_app/ui/widgets/my_date_picker_timeline.dart';
 import 'package:flutter_maihomie_app/ui/widgets/text_tag.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:intl/intl.dart';
 
 class BookingView extends StatefulWidget {
   const BookingView({Key? key}) : super(key: key);
@@ -541,6 +542,7 @@ class _BookingViewState extends State<BookingView>
 
     List<Widget> items = [];
     double price = 0;
+    var formater = NumberFormat("###,###,###");
     for (int i = 0; i < selectedProducts.length; i++) {
       price += selectedProducts[i].price;
 
@@ -555,48 +557,48 @@ class _BookingViewState extends State<BookingView>
     }
 
     ///Add discount
-    items.add(
-      Container(
-        height: 40,
-        padding: const EdgeInsets.all(4.0),
-        margin: const EdgeInsets.all(4.0),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text(
-              "${appLang(context)!.discount_rank} ${user.rank?.rankName}",
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: const TextStyle(
-                color: primaryColor,
-                fontSize: 16,
-              ),
-            ),
-            Container(
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(100.0),
-                color: Colors.red.shade200,
-              ),
-              child: Text(
-                "-$discountRank%",
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  color: primaryColor,
-                ),
-              ),
-            ),
-          ],
-        ),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20.0),
-          border: Border.all(
-            color: Colors.black26,
-          ),
-        ),
-      ),
-    );
+    // items.add(
+    //   Container(
+    //     height: 40,
+    //     padding: const EdgeInsets.all(4.0),
+    //     margin: const EdgeInsets.all(4.0),
+    //     child: Row(
+    //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    //       children: [
+    //         Text(
+    //           "${appLang(context)!.discount_rank} ${user.rank?.rankName}",
+    //           maxLines: 1,
+    //           overflow: TextOverflow.ellipsis,
+    //           style: const TextStyle(
+    //             color: primaryColor,
+    //             fontSize: 16,
+    //           ),
+    //         ),
+    //         Container(
+    //           padding: const EdgeInsets.all(8),
+    //           decoration: BoxDecoration(
+    //             borderRadius: BorderRadius.circular(100.0),
+    //             color: Colors.red.shade200,
+    //           ),
+    //           child: Text(
+    //             "-$discountRank%",
+    //             maxLines: 1,
+    //             overflow: TextOverflow.ellipsis,
+    //             style: const TextStyle(
+    //               color: primaryColor,
+    //             ),
+    //           ),
+    //         ),
+    //       ],
+    //     ),
+    //     decoration: BoxDecoration(
+    //       borderRadius: BorderRadius.circular(20.0),
+    //       border: Border.all(
+    //         color: Colors.black26,
+    //       ),
+    //     ),
+    //   ),
+    // );
 
     ///Add item total
     items.add(
@@ -623,7 +625,7 @@ class _BookingViewState extends State<BookingView>
                 color: Colors.yellow,
               ),
               child: Text(
-                "${price - (price * discountRank / 100)}K",
+                "${formater.format(price - (price * discountRank / 100))}K",
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(

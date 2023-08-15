@@ -12,13 +12,13 @@ class RouterLogin {
           (route) => false,
         );
         break;
-      case Role.manager:
-        Navigator.pushNamedAndRemoveUntil(
-          context,
-          '/home-manager',
-          (route) => false,
-        );
-        break;
+      // case Role.manager:
+      // Navigator.pushNamedAndRemoveUntil(
+      //   context,
+      //   '/home-super-admin',
+      //   (route) => false,
+      // );
+      // break;
       case Role.superAdmin:
         Navigator.pushNamedAndRemoveUntil(
           context,
